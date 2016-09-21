@@ -1,0 +1,132 @@
+html>body {
+	background-color: #eee;
+	/*background: url(../img/2877.jpg);*/
+	
+}
+/*.searchBox {
+	width: 100%;
+	background-color: WHITE;
+	margin-top: 30px;
+	padding: 15px;
+	font-size: 1.2em;
+	text-align: center;
+}*/
+
+/*#listbox {
+	max-width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+}*/
+
+/*.whiteHeader {
+	font-weight: 500;
+	font-size: 1.3em;
+
+}*/
+
+/*.weatherDiv {
+	margin: 0;
+	padding: 0;
+	margin-top: 15px;
+}*/
+
+.forecastContainer {
+	height: 600px;
+	margin-top: 15px;
+}
+
+/*.forecastDiv {
+	background-color: white;
+	margin: 0;
+	padding: 15px 40px;
+	height: 150px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}*/
+
+/*.dailyDiv {
+	margin-top: 15px;
+	background-color: white;
+	padding: 20px 30px;
+	height: 600px;
+}*/
+
+.mp0 {
+	margin: 0;
+	padding: 0;
+}
+
+.symbolIcoSmall {
+	width: 100px;
+	height: 100px;
+	float: left;
+}
+
+.symbolIcoBig {
+	width: 200px;
+	height: 200px;
+	float: left;
+}
+
+/*.temperatureBig {
+	font-size: 7em;
+	font-weight: 500;
+	margin-top: 40px;
+	margin-left: 50px;
+	vertical-align: middle;
+	float: left;
+}*/
+
+.clear {
+	clear: both;
+}
+
+/*#actDate {
+	position: absolute;
+	bottom: 5px;
+	right: 20px;
+}
+*/
+/*#dailyDetails {
+	margin-top: 25px;
+}*/
+
+/*.sunrise {
+	width: 100px;
+	text-align: center;
+}
+
+.sunMoon {
+	height: 100px;
+	background: url(../../../img/sunMoon.png);
+	-webkit-background-size: 100px 100px;
+	background-size: 100px 100px;
+}*/
+
+/*.highTmp {
+	color: red;
+	font-size: 1.7em;
+	margin-top: 13px;
+	margin-left: 30px;
+}*/
+
+/*.lowTmp {
+	color: blue;
+	font-size: 1.7em;
+	margin-top: 3px;
+	margin-left: 30px;
+}*/
+
+
+
+@media all and (min-width: 992px) {
+	.forecastContainer {
+		overflow: auto;
+	}
+}
+
+@media all and (max-width: 991px) {
+	html>body {
+		font-size: 1.5em;
+	}
+}
